@@ -15,7 +15,7 @@
 }
 .landing-ltr-hero {
   gap: 32px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 40px 0 0;
   overflow: hidden;
@@ -385,7 +385,7 @@
 }
 .landing-ltr-about {
   gap: 32px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 64px 188px 80px;
   overflow: hidden;
@@ -529,7 +529,7 @@
 }
 .landing-ltr-services-section {
   gap: 10px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 64px 124px;
   overflow: hidden;
@@ -852,7 +852,7 @@
 }
 .landing-ltr-heading {
   gap: 10px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 50px 124px 142px;
   overflow: hidden;
@@ -886,7 +886,7 @@
 }
 .landing-ltr-cards-container {
   gap: 64px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 0 124px 64px;
   align-items: center;
@@ -1515,7 +1515,7 @@
 }
 .landing-ltr-skills {
   gap: 64px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 90px 188px;
   overflow: hidden;
@@ -1814,7 +1814,7 @@
 }
 .landing-ltr-testemonials {
   gap: 10px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 90px 124px 64px;
   overflow: hidden;
@@ -1976,7 +1976,7 @@
 }
 .landing-ltr-blog {
   gap: 48px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 90px 124px;
   overflow: hidden;
@@ -2360,7 +2360,7 @@
 }
 .landing-ltr-contact {
   gap: 60px;
-  width: 1440px;
+  width: autopx;
   display: flex;
   padding: 124px;
   overflow: hidden;
@@ -2719,4 +2719,10 @@
 .landing-ltr-svg-social-links {
   width: 179px;
   height: 25px;
+}
+
+@media screen and (min-width: 1024){
+    .landing-ltr-landing-ltr {
+        width: calc(100vw - 4em)
+    }
 }
